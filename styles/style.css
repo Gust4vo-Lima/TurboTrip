@@ -1,7 +1,12 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Unna', serif;
+  font-family: 'Inter', sans-serif;
+  line-height: 30px;
+}
+
+:root{
+
 }
 
 header a{
@@ -14,15 +19,120 @@ header a{
 }
 
 nav{
-  background-color: #f7f7f7;
+  font-weight: light;
+  background-color: #f0f0f0;
   color: white;
   width: 100%;
   font-size: 15px;
-  font-weight: 400;
   height: 30x;
   padding: 0px;
   display: flex;
   justify-content: center;
   margin-top: 30px;
 }
+
+.carousel-item img{
+  width: auto; 
+  object-fit: cover;
+  object-position: center;
+  height: 802px;
+  overflow: hidden;
+}
+
+.welcome h1{
+  font-size: 80px;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.welcome p{
+  width: 872px;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-us{
+  background-color: #f7f7f7;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.about-us-text{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-us-img img{
+  width: 50vw;
+  height: 420px;
+  object-fit: cover;
+}
+
+.about-us p{
+  width: 500px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.about-us h1{
+  text-align: center;
+}
+
+.apointment{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid rgb(196, 196, 196);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  padding: 100px 50px;
+}
+
+.apointment h1{
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.sub{
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 50px;
+}
+
+.sub input{
+  width: 300px;
+  padding: 10px;
+}
+
+@media(max-width: 1023px) {
+  .welcome p{
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .about-us{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-us-img img{
+    width: 100vw;
+    object-fit: cover;
+  }
+}
+  
+
 
