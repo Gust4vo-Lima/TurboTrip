@@ -101,7 +101,7 @@ nav{
 }
 
 .apointment h1{
-  font-size: 50px;
+  font-size: 40px;
   font-weight: lighter;
 }
 
@@ -116,7 +116,7 @@ nav{
   padding: 10px;
 }
 
-@media(max-width: 1023px) {
+@media(max-width: 1023px){
   .welcome p{
     width: auto;
     margin-left: 20px;
@@ -133,6 +133,27 @@ nav{
     object-fit: cover;
   }
 }
-  
+
+@media(max-width: 540px){
+  .welcome h1{
+    font-size: 60px;
+  }
+
+  .about-us-text p{
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .apointment h1{
+    font-size: 30px;
+  }
+
+  .apointment .btn{
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+  }
+}  
 
 
